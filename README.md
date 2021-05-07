@@ -16,6 +16,10 @@ LuatOS本着自身的开源特性，可以很轻松的嵌入到很多微处理�
 
 我给大家准备了配套的移植模板，请根据模板看这篇移植教程
 
+[Github](https://github.com/dreamcmi/luatos-bsp-example)
+
+[Gitee](https://gitee.com/dreamcmi/luatos-bsp-example)
+
 废话少说，开始进入正题
 
 ### 准备
