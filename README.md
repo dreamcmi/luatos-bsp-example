@@ -44,7 +44,7 @@ LuatOS本着自身的开源特性，可以很轻松的嵌入到很多微处理�
 
 
 
-![1加入编译环境](.\img\1加入编译环境.png)
+![1加入编译环境](./img/1加入编译环境.png)
 
 这里根据图再简要说明一下，lua文件夹里面的文件可以直接复制，luat里面要复制的有三个部分：
 
@@ -56,7 +56,7 @@ LuatOS本着自身的开源特性，可以很轻松的嵌入到很多微处理�
 
 - （3）modules 这个是和用户做交互用的源码所在（第一次不需要全部加入）   
 
-![moudles](.\img\moudles.png)
+![moudles](./img/moudles.png)
 
 第一次集成加这些就够了
 
@@ -122,7 +122,7 @@ e.g. #define LUAT_HEAP_SIZE (16*1024) //代表分配16k 给luatos使用
 
   
 
-![加载库](.\img\加载库.png)
+![加载库](./img/加载库.png)
 
 
 
@@ -167,7 +167,7 @@ e.g. #define LUAT_HEAP_SIZE (16*1024) //代表分配16k 给luatos使用
 
 外设通常指 `gpio`/`i2c`/`spi`, 实现对应的.h文件就可以了, 然后在`luat_openlibs`加载
 
-加载示例`{"gpio", luaopen_gpio},`![加载](.\img\加载.png)
+加载示例`{"gpio", luaopen_gpio},`![加载](./img/加载.png)
 
 #### 四、小结
 
